@@ -7,4 +7,5 @@ module.exports = {
         },
       },
     ],
+    pathPrefix: "/personal-cv"
   }
