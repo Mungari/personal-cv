@@ -62,6 +62,8 @@ jobs:
           # Automatically inject pathPrefix in your Gatsby configuration file.
           #
           # You may remove this line if you want to manage the configuration yourself.
+          access-token: ${{ secrets.DEPLOY_KEY }}
+          deploy-branch: cv
           static_site_generator: gatsby
       - name: Restore cache
         uses: actions/cache@v3
