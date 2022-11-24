@@ -62,8 +62,7 @@ jobs:
           # Automatically inject pathPrefix in your Gatsby configuration file.
           #
           # You may remove this line if you want to manage the configuration yourself.
-          access-token: ${{ secrets.DEPLOY_KEY }}
-          deploy-branch: cv
+          token: ${{ secrets.DEPLOY_KEY }}
           static_site_generator: gatsby
       - name: Restore cache
         uses: actions/cache@v3
@@ -87,9 +86,9 @@ jobs:
 
   # Deployment job
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    #environment:
+      # name: github-pages
+      # url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
