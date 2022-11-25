@@ -7,7 +7,14 @@
   relocation: true
   company: Sorint.lab
   for_hire: true
+  # Adding budget to comply with graphql even though it's optional...
+  budget:
+    currency: $
+    min: 5
+    max: 30
+    default: 10
   focus: Mastering DevOps methodology
+  focus_url: 0
   about: |
     System administrator turned DevOps Engineer, I like automating and building tools that other people can use by themselves.
     To me good work is about empowering others to work better with less friction and the right safeguards, giving the devs and admins autonomy in their work.

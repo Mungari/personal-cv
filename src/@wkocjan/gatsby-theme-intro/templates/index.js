@@ -47,8 +47,8 @@ export const query = graphql`
         showThemeLogo
       }
     }
-    profile: profileYamlShadowed {
-      ...ProfileFragmentShadowed
+    profile: profileYaml {
+      ...ProfileFragment
     }
     social: allSocialYaml(filter: { url: { ne: null } }) {
       nodes {
