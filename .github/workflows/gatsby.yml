@@ -20,6 +20,6 @@ jobs:
       uses: actions/checkout@v2
     - name: Install dependencies
       run: |
-        yarn insyall package.json
+        yarn add package.json
     - name: Deploy
       run: npm run deploy-ci
