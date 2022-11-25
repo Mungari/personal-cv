@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build":"yarn gatsby build --prefix-paths",
+    "build": "yarn gatsby build --prefix-paths",
     "deploy": "gh-pages -d public -b cv",
     "deploy-ci": "gh-pages -d public -b cv -r https://$GH_TOKEN@github.com/Mungari/personal-cv.git"
   },
