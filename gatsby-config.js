@@ -6,7 +6,7 @@ module.exports = {
   },
     plugins: [
       {
-        resolve: "@wkocjan/gatsby-theme-intro",
+        resolve: "gatsby-theme-intro-personal",
         options: {
           theme: {
             'back': '#e8eaef',
