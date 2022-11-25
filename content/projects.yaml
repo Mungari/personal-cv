@@ -1,18 +1,94 @@
-- name: Example 1
-  url: https://github.com
-  description: Override the digital divide with additional clickthroughs from DevOps. User generated content in real-time will have multiple touchpoints for offshoring.
-  status: in progress
+##### WORK ######
+- name: Vmax storage automation
+  description: Automated the creation and update of storage volumes under VMAX. Used ansible to create, delete, 
+              resize and rename volumes, controlled with ansible tower first and then jenkins.
+  status: Done
+  tags:
+    - Ansible
+    - Vmax
+    - Gitlab
+    - Ansible tower
+    - Jenkins
+  icon: github
+  type: work
+
+- name: Dr sync
+  description: Wrote a bash script to automate the sync to DR for business critical data
+  status: Done
+  tags:
+    - Bash
+    - Gitlab
+    - Linux
+  icon: github
+  type: work
+
+- name: Elasticsearch cluster automation
+  description: Set up automation for an Elasticsearch cluster, providing daily reports, index deletion and repairing. 
+  status: Done
+  tags:
+    - Python
+    - ELK
+    - Gitlab
+  icon: github
+  type: work
+
+- name: VM deploy automation
+  description: Ansible automation to deploy windows and linux VMs. VMs specs were provided with a yaml file in a git repo, editable by the sysadmins.
+              The automation ran on ansible tower.
+  status: Done
+  tags:
+    - Ansible
+    - Gitlab
+    - Ansible tower
+  icon: github
+  type: work
+
+- name: Kafka setup
+  description: Set up a kafka cluster using ansible for an important client
+  status: Done
+  tags:
+    - Ansible
+    - Kafka
+    - Gitlab   
+  icon: github
+  type: work
+##### PERSONAL ######
+- name: Personal CV
+  url: https://github.com/Mungari/personal-cv
+  description: Personal CV using a gatsby template deployed on github pages with github actions ci/cd
+  status: Live
   tags:
     - JavaScript
     - Gatsby
+    - Github pages
+    - Github actions
+    - CI/CD
+    - node
   icon: github
+  type: personal
 
-- name: Example 2
-  url: https://github.com
-  description: Leverage agile frameworks to provide a robust synopsis for high level overviews.
-  status: live
+- name: Automated k8s cluster deployment
+  url: https://github.com/Mungari/k8s-infra-deploy
+  description: Automated cluster deploy with Terraform and Ansible using Github actions
+  status: Done
   tags:
-    - JavaScript
-    - HTML
-  icon: website
-  image: images/project.jpg
+    - Terraform
+    - Ansible
+    - CI/CD
+    - Github actions
+    -  Kubernetes
+    - Automation
+  icon: github
+  type: personal
+
+- name: Simple sudoku solver using python
+  url: https://github.com/Mungari/PydokuSolver
+  description: Sudoku solver and generator using python
+  status: Done
+  tags:
+    - Python
+    - Automation
+    - Puzzle
+    - Programming
+  icon: github
+  type: personal
