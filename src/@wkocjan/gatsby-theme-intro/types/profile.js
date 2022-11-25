@@ -20,7 +20,7 @@ export const ProfileType = {
 }
 
 export const query = graphql`
-  fragment ProfileFragmentShadowed on ProfileYamlShadowed {
+  fragment ProfileFragmentShadowed on ProfileYaml {
     about
     company
     focus
