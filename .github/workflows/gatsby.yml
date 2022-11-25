@@ -21,5 +21,8 @@ jobs:
     - name: Install dependencies
       run: |
         yarn add package.json
+    - name: Build site
+      run: npm run build
+    
     - name: Deploy
       run: npm run deploy-ci
