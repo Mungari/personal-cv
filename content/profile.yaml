@@ -1,28 +1,36 @@
 - profile:
-  initials: JD
-  name: John Doe
-  profession: Web Developer
+  initials: FM
+  name: Francesco Mungari
+  profession: DevOps Engineer
   image: images/profile.jpg
-  location: New York, USA
+  location: Calusco d'adda, BG, IT
   relocation: true
-  company: Atomic Studio
+  company: Sorint.lab
   for_hire: true
-  focus: Learning Gatsby
-  focus_url: https://gatsbyjs.org
+  focus: Mastering DevOps methodology
   about: |
-    Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.
+    System administrator turned DevOps Engineer, I like automating and building tools that other people can use by themselves.
+    To me good work is about empowering others to work better with less friction and the right safeguards, giving the devs and admins autonomy in their work.
 
-    User generated content in real-time will have multiple touchpoints for offshoring. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
+    A brief overview of the projects I've worked on:
   skills:
-    - JavaScript
-    - HTML / CSS
-    - Ruby on Rails
+    - Linux
+    - Kubernetes
+    - CI/CD
+    - Javascript
+    - Python
+    - ELK stack
+    - Docker
+    - Ansible
+    - Terraform
+    - ArgoCD
+    - Jenkins
+    - Gitlab CI
   tools:
-    - React
+    - Node
     - VSCode
     - Gatsby
-  budget:
-    currency: $
-    min: 5
-    max: 30
-    default: 10
+    - Github Actions
+    - ArgoCD
+    - Photoshop
+    - Gimp
