@@ -8,6 +8,8 @@
     - gitlab ci
     - pipelines
     - DevOps workflow
+  icon: github
+  type: work
 
 - name: Automation platform for customers
   description: created a jenkins automation platform for customers on AWS ECS. Support multi-tenancy, workspace division and statefulness.
@@ -18,6 +20,8 @@
     - docker
     - ecs
     - ansible
+  icon: github
+  type: work
 
 - name: Apisix and Skywalking R&D
   description: Lead the R&D of skywalking and apisix at the company. Studied deployment solutions, helmchart development, terraform integration and fixing bugs. Main point of reference.
@@ -28,6 +32,8 @@
     - Skywalking
     - Apigateway
     - R&D
+  icon: github
+  type: work
 
 - name: Ansible automation upgrade for rhel9
   description: Single handledly upgraded all ansible automation to work with redhat 9
@@ -36,6 +42,8 @@
     - Ansible
     - Rhel9
     - Upgrade management
+  icon: github
+  type: work
 
 - name: Pipeline development
   description: Developed pipelines for the dev team to standardize workflow and deployment using gitlab CI.
@@ -45,7 +53,9 @@
     - gitlab ci
     - pipelines
     - DevOps workflow
-
+  icon: github
+  type: work
+  
 - name: Vmax storage automation
   description: Automated the creation and update of storage volumes under VMAX. Used ansible to create, delete, 
               resize and rename volumes, controlled with ansible tower first and then jenkins.
