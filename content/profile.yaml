@@ -6,7 +6,7 @@
   location: Calusco d'adda, BG, IT
   contact: mungarifr@gmail.com
   relocation: true
-  company: Sorint.lab
+  company: Eidosmedia
   for_hire: true
   # Adding budget to comply with graphql even though it's optional...
   budget:
@@ -34,11 +34,17 @@
     - ArgoCD
     - Jenkins
     - Gitlab CI
+    - Helm
+    - Jenkins
+    - AWS
   tools:
     - Node
     - VSCode
-    - Gatsby
     - Github Actions
+    - Gitlab CI
+    - Jenkins
+    - Apisix
+    - Skywalking
     - ArgoCD
     - Photoshop
     - Gimp

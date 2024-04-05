@@ -1,4 +1,51 @@
 ##### WORK ######
+- name: Jenkins pipeline migration
+  description: Migrated pipeline from jenkins to gitlab ci to standardize workflow
+  status: Done
+  tags:
+    - jenkins
+    - gitlab
+    - gitlab ci
+    - pipelines
+    - DevOps workflow
+
+- name: Automation platform for customers
+  description: created a jenkins automation platform for customers on AWS ECS. Support multi-tenancy, workspace division and statefulness.
+  status: Done
+  tags:
+    - Jenkins
+    - aws
+    - docker
+    - ecs
+    - ansible
+
+- name: Apisix and Skywalking R&D
+  description: Lead the R&D of skywalking and apisix at the company. Studied deployment solutions, helmchart development, terraform integration and fixing bugs. Main point of reference.
+  status: WIP
+  tags:
+    - DevOps methodologies
+    - Apisix
+    - Skywalking
+    - Apigateway
+    - R&D
+
+- name: Ansible automation upgrade for rhel9
+  description: Single handledly upgraded all ansible automation to work with redhat 9
+  status: Done
+  tags:
+    - Ansible
+    - Rhel9
+    - Upgrade management
+
+- name: Pipeline development
+  description: Developed pipelines for the dev team to standardize workflow and deployment using gitlab CI.
+  status: WIP
+  tags:
+    - gitlab
+    - gitlab ci
+    - pipelines
+    - DevOps workflow
+
 - name: Vmax storage automation
   description: Automated the creation and update of storage volumes under VMAX. Used ansible to create, delete, 
               resize and rename volumes, controlled with ansible tower first and then jenkins.
